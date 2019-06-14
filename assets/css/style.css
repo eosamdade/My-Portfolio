@@ -1,7 +1,7 @@
-* {
+ * {
     margin: 0;
     padding: 0;
-}
+} 
 
 body {
     
@@ -15,7 +15,7 @@ body {
     background-color: white;
     border-bottom: 5px solid gray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: absolute;
+    position: relative;
     
 }
 
@@ -43,11 +43,11 @@ body {
     text-align: center;
 }
 
-#nagivation {
+/* #nagivation {
     position: absolute;
     right: 0;
     bottom: 0;
-}
+} */
 
 .about {
 
@@ -71,39 +71,37 @@ body {
 .content {
     margin: 0px;
     border: 0px;
-    height: 100%;
+    height: 700px;
     /* width: 100%; */
     border-bottom: 10px solid red;
     background-color: bisque;
-    padding: 100px;
+    padding: 150px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: relative;
-    top:205px;
+
 }
 
 .main {
     margin: 0px;
     border: 1px;
-    padding: 20px;
+    padding: 15px;
     background-color: aliceblue;
-    height:100%;
+    height:30px;
     width: 100%;
-    border-bottom: 10px solid blue;
+    border-bottom: 8px solid blue;
     text-align: left; 
 }
 
-.page {margin: 0px;
-    border: 0px;
-    padding: 20px;
-    background-color: gray;
-    height:100%;
+.wrapper {
+    margin: 0px;
+    border: 1px;
+    padding: 15px;
+    background-color: aliceblue;
+    height:600px;
     width: 100%;
     text-align: left;
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    font-size: 23px;
+    font-size: 100%;
 }
+
 
 .profile-pic {
     float: left;
@@ -114,11 +112,8 @@ body {
     margin: 0px;
     border: 0px;
     padding: 20px;
-    height: 200px;
+    height: 100px;
     background-color: aqua;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: relative;
-    top:210px;
-
-}
+} 
