@@ -100,6 +100,7 @@ body {
     width: 100%;
     text-align: left;
     font-size: 100%;
+    position: relative;
 }
 
 
@@ -117,3 +118,56 @@ body {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 } 
+
+/* css styles for the portfolio page */
+
+.port {
+    width: 300px;
+    /* height: 100%; */
+}
+
+/* .webdesign {
+    position: absolute;
+    left: 500px;
+
+} */
+
+.left {
+    float: left;
+    padding-left: 150px;
+    padding-top: 50px;
+    position: relative;
+}
+
+/* "can achieve the same thing with .left" */
+/* .first {
+    position: absolute;
+    left: 150px;
+}
+
+.second {
+    position: absolute;
+    left: 600px;
+}
+
+.third {
+    position: absolute;
+    left: 1050px;
+}
+
+.fourth {
+    position: absolute;
+    left: 1500px;
+} */
+
+.p-title {
+    width: 260px;
+    text-align: center;
+    background-color: aqua;
+    position: absolute;
+    bottom: 100px;
+    padding: 20px;
+
+
+
+}
