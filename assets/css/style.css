@@ -33,7 +33,14 @@ body {}
     bottom: 0;
     color: azure;
     font-family: 'Roboto Slab', serif;
+}
 
+#name:hover {
+    position: absolute;
+    left: 200px;
+    bottom: 10px;
+    cursor: pointer;
+    color: #385273;
 }
 
 .box {
@@ -145,12 +152,13 @@ body {}
     padding-top: 50px;
     position: relative;
     color: #ffffff;
+    
 }
 
 .left:hover {
     opacity: 0.5;
     cursor: pointer;
-    color: #f24150;
+    width: 350px;
 }
 
 /* "can achieve the same thing with .left" */
@@ -180,6 +188,12 @@ body {}
     background-color: #f24150;
     position: absolute;
     bottom: 100px;
+    padding: 20px;
+}
+
+.p-title:hover {
+    position: absolute;
+    bottom: 105px;
     padding: 20px;
 }
 
@@ -236,4 +250,14 @@ color: #ffffff;
     border-bottom: 8px solid #385273;
     text-align: left;
     color: #f24150; 
+}
+
+.icon {
+    height: 50px;
+}
+
+.icon:hover {
+    height: 75px;
+    opacity: 0.5;
+    cursor: pointer;
 }
