@@ -11,11 +11,12 @@ body {}
     padding: 0px;
     height: 200px;
     width: 100%;
-    background-color:lightgray;
+    /* background-color:lightgray; */
     border-bottom: 5px solid gray;
     font-family: 'Roboto Slab', serif;
     position: relative;
     /* font-weight: 50px; */
+    background-image:url(../images/eight_horns.png);
 
 }
 
@@ -40,7 +41,7 @@ body {}
     border-right: 2px solid #f24150;
     padding: 10px;
     width: 70px;
-    background-color: lightgray;
+    background-color:none;
     text-align: center;
     font-family: 'Roboto Slab', serif;
     
@@ -76,7 +77,8 @@ body {}
     height: 700px;
     /* width: 100%; */
     border-bottom: 10px solid gray;
-    background-color:#595959;
+    /* background-image: url() */
+    /* background-color:#595959; */
     padding: 150px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -142,6 +144,13 @@ body {}
     padding-left: 150px;
     padding-top: 50px;
     position: relative;
+    color: #ffffff;
+}
+
+.left:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    color: #f24150;
 }
 
 /* "can achieve the same thing with .left" */
@@ -196,8 +205,10 @@ input {
 .sub {
 background-color: #2d565e;
 /* width: 400px; */
-font-size: ;
-font-weight: ;
+height: 60px;
+font-family: 'Roboto Slab', serif;
+/* font-size: ;
+font-weight: ; */
 margin-top: 20px;
 color: #ffffff;
 }
